@@ -7,3 +7,15 @@
 [2026-05-12 14:12:51,064: INFO: common: created directory at: artifacts/data_ingestion]
 [2026-05-12 14:12:51,066: INFO: 799084362: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
 [2026-05-12 14:13:15,112: INFO: 799084362: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-05-20 15:52:08,648: INFO: main: Welcome to Kidney]
+[2026-05-20 15:53:03,460: INFO: main: Welcome to Kidney]
+[2026-05-20 15:55:54,270: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-05-20 15:55:54,274: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-20 15:55:54,276: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-20 15:55:54,278: INFO: common: created directory at: artifacts]
+[2026-05-20 15:55:54,279: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-05-20 15:55:54,280: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-05-20 15:56:01,624: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-05-20 15:56:05,263: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
