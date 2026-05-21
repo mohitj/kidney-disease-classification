@@ -19,3 +19,25 @@
 [2026-05-20 15:56:05,263: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2026-05-21 16:10:50,025: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-05-21 16:10:50,034: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-21 16:10:50,041: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-21 16:10:50,044: INFO: common: created directory at: artifacts]
+[2026-05-21 16:10:50,047: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-05-21 16:10:50,048: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-05-21 16:10:58,326: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-05-21 16:11:02,512: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-05-21 16:11:02,513: INFO: main: *******************]
+[2026-05-21 16:11:02,514: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2026-05-21 16:11:02,521: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-21 16:11:02,530: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-21 16:11:02,531: INFO: common: created directory at: artifacts]
+[2026-05-21 16:11:02,532: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-05-21 16:11:04,111: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-05-21 16:11:04,433: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-05-21 16:11:04,514: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-05-21 16:11:04,764: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
